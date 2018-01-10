@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit_goods"
+        android:title="@string/goods_edit"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/edit_cancel"
+        android:title="@string/cancel"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/edit_confirm"
+        android:title="@string/confirm"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+</menu>
